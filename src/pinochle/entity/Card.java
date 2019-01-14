@@ -46,4 +46,8 @@ public class Card {
     public String toString() {
         return type + " of " + suit;
     }
+
+	public CardType getType() {
+		return type;
+	}
 }
