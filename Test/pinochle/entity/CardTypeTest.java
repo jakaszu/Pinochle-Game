@@ -1,8 +1,13 @@
-package fun.entity;
+package pinochle.entity;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+
+import java.util.HashSet;
 
 import org.junit.Test;
+
+import pinochle.entity.CardType;
 
 public class CardTypeTest {
 
@@ -18,6 +23,10 @@ public class CardTypeTest {
 
     @Test
     public void testGetRankIsUnique() {
-finish this test then move to HandTest to make sure it is putting cards in correct order based on rank
+    	java.util.HashSet<Integer> noDuplicates = new HashSet<Integer>();
+    	for(CardType cardType :CardType.values()) {
+    		assertTrue(noDuplicates.add(cardType.getRank()));
+    	}
+    	assertEquals(CardType.values().length, noDuplicates.size());
     }
 }

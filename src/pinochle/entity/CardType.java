@@ -1,4 +1,4 @@
-package fun.entity;
+package pinochle.entity;
 
 public enum CardType {
     ACE(5), TEN(4), KING(3), QUEEN(2), JACK(1), NINE(0);

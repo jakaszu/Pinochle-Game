@@ -1,4 +1,4 @@
-package fun.entity;
+package pinochle.entity;
 
 public class Card {
 

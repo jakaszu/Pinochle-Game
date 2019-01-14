@@ -1,4 +1,4 @@
-package fun.entity;
+package pinochle;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -7,6 +7,9 @@ import java.util.Iterator;
 import java.util.List;
 
 import org.junit.Test;
+
+import pinochle.entity.Card;
+import pinochle.entity.Hand;
 
 public class PinochleGameTest {
 

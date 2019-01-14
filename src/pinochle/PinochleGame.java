@@ -1,7 +1,11 @@
-package fun.entity;
+package pinochle;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import pinochle.entity.Card;
+import pinochle.entity.Hand;
+import pinochle.entity.PinochleDeck;
 
 public class PinochleGame {
 

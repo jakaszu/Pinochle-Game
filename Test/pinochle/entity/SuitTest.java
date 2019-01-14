@@ -1,8 +1,10 @@
-package fun.entity;
+package pinochle.entity;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
+
+import pinochle.entity.Suit;
 
 public class SuitTest {
 

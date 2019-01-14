@@ -1,4 +1,4 @@
-package fun.entity;
+package pinochle.entity;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
@@ -7,6 +7,11 @@ import static org.junit.Assert.assertTrue;
 import java.util.List;
 
 import org.junit.Test;
+
+import pinochle.entity.Card;
+import pinochle.entity.CardType;
+import pinochle.entity.Hand;
+import pinochle.entity.Suit;
 
 public class HandTest {
 
@@ -30,6 +35,11 @@ public class HandTest {
 
         assertEquals(highestCard, cards.get(0));
         assertEquals(lowestCard, cards.get(1));
+    }
+    
+    @Test
+    public void testAddCardPutsInProperRankOrder() {
+    	assertTrue(1==2);
     }
 
     private Card createdHighestCard() {
