@@ -1,5 +1,6 @@
 package pinochle.entity;
 
+// change
 public class Card {
 
     private final Suit suit;
