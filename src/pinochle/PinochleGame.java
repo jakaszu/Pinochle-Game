@@ -16,6 +16,7 @@ public class PinochleGame {
         Hand handTwo = new Hand();
         Hand handThree = new Hand();
         Hand handFour = new Hand();
+        Hand handDelete = new Hand();
         List<Card> cards = pinochleDeck.getCards();
         for (int deckPosition = 0; deckPosition < cards.size(); deckPosition += 4) {
             handOne.addCard(cards.get(deckPosition));
